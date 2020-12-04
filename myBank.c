@@ -108,13 +108,8 @@ int isValid(int account_number) {
 
 /*A function that checks whether an account is open or closed*/
 int isOpen(int account_number) {
-
-    // account is open
     if(accountsOfBank[account_number - range][0] == 1) {
-        return 1; 
-    
-    // account is closed
-    } else {
-        return 0;
-    }
+         return 1;  }
+    else {
+        return 0;}
 }
